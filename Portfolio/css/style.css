@@ -1,0 +1,8 @@
+.bg-black {
+    background-color: black;
+}
+
+.item:hover {
+    opacity: 0.9; 
+    cursor: pointer;
+}

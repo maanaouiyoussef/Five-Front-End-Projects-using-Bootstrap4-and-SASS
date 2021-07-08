@@ -1,0 +1,129 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+    padding: 0 1rem !important;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.active {
+    border-left: #444 3px solid;
+}
+
+.carousel-item {
+    height: 460px; 
+}
+
+.img-1 {
+    background-image: url('../img/image1.jpg');
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: url('../img/image2.jpg');
+    background-size: cover;
+}
+
+.img-3 {
+    background-image: url('../img/image3.jpg');
+    background-size: cover;
+}
+
+.carousel-item .container {
+    padding-top: 120px;
+}
+
+#home-heading {
+    position: relative;
+    background-image: url('../img/lights.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.overlay-dark {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0; 
+    height: 100%; 
+    width: 100%; 
+    background-color: rgba(0,0,0,0.7);
+}
+
+#video {
+    position: relative;
+    background-image: url('../img/media.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -300px;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+}
+
+a, a:hover {
+    color: white; 
+}
+
+/*#about {
+    position: relative; 
+    background-image: url('../img/image1.jpg');
+    background-position: 0 -50px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    min-height: 200px; 
+    color: white; 
+    text-align: center; 
+}/
+
+
+/* STICK THE IMAGE WITH THE ABOUT SECTION 
+.img-outZone {
+    margin-top: -45px;
+}*/
+
+#main-footer {
+    background-color: black;
+    color: white; 
+}
+
+#service-header, #blog-header, #about , #contact-header {
+    position: relative; 
+    background-image: url('../img/image1.jpg');
+    background-position: 0 -50px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    min-height: 200px; 
+    color: white; 
+    text-align: center; 
+}
+
+.collapseHeader, .collapseBody {
+background-color: black;
+}
+
+#accordion .card {
+    border: #333;
+}
+
+#accordion .card .card-header {
+background-color: #333;
+}
+
+.collapse .card-body{
+    background-color: #333;
+}
+

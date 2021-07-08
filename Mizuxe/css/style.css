@@ -1,0 +1,55 @@
+body {
+  margin-top: 95px; 
+}
+
+.navbar {
+  box-shadow: 1px 2px 8px #3292a6; 
+  opacity: 0.9; 
+  background-color: white;
+  color: black; 
+}
+
+.nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem; 
+}
+
+#showcase {
+  position: relative; /* lorsqu'on a un element en position absolute toujours sont parent doit etre relative */
+  background-image: url('../img/mountains.jpg');
+  background-size: cover;
+  min-height: 600px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  min-height: 600px; 
+  background-color: #3292a6;
+  opacity: 0.85;
+}
+
+a {
+  color: black;
+}
+
+p,h3 {
+  font-weight: 600; 
+}
+
+.row .col-lg-3 .card .card-body:hover {
+background-color: #3292a6; 
+color: white;
+}
+
+.per {
+  margin-top: -50px;
+}
+
+.justify-content-center .p-4 a:hover{
+color: white; 
+}
